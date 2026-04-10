@@ -96,21 +96,21 @@ export default function Home() {
   return (
     <main className="min-h-screen">
       {/* Hero header */}
-      <header className="px-6 pt-8 pb-4 stripe-bg border-b-2 border-[var(--color-neon-pink)]">
-        <div className="flex items-center justify-center gap-5 md:gap-8">
+      <header className="px-4 md:px-6 pt-6 md:pt-8 pb-4 stripe-bg border-b-2 border-[var(--color-neon-pink)]">
+        <div className="flex flex-col md:flex-row items-center justify-center gap-3 md:gap-8">
           <Image
             src="/shakes-skull.png"
             alt="Punk Shakespeare skull"
             width={240}
             height={280}
-            className="-rotate-[20deg]"
+            className="-rotate-[20deg] w-[120px] md:w-[240px] h-auto"
             priority
           />
           <div className="text-center md:text-left">
-            <h1 className="punk-title text-5xl md:text-7xl text-[var(--color-neon-pink)]">
+            <h1 className="punk-title text-4xl md:text-7xl text-[var(--color-neon-pink)]">
               Punk Shakespeare
             </h1>
-            <p className="font-mono text-xs md:text-sm text-[var(--color-neon-yellow)] mt-2 tracking-[0.3em] uppercase">
+            <p className="font-mono text-[10px] md:text-sm text-[var(--color-neon-yellow)] mt-1 md:mt-2 tracking-[0.2em] md:tracking-[0.3em] uppercase">
               Name thy virtue — meet thy villain
             </p>
           </div>
@@ -121,8 +121,8 @@ export default function Home() {
       <section className="px-4 md:px-8 py-8 max-w-7xl mx-auto">
         {showForm && !generating ? (
           /* Name & virtue form */
-          <div className="flex flex-col items-center justify-center py-20 max-w-md mx-auto">
-            <p className="punk-title text-2xl md:text-4xl text-[var(--color-neon-pink)] mb-8 text-center">
+          <div className="flex flex-col items-center justify-center py-10 md:py-20 max-w-md mx-auto">
+            <p className="punk-title text-xl md:text-4xl text-[var(--color-neon-pink)] mb-6 md:mb-8 text-center">
               Who dares summon a villain?
             </p>
 
@@ -166,13 +166,13 @@ export default function Home() {
           </div>
         ) : generating && !quote ? (
           /* First generation loading — with rotating insults */
-          <div className="flex flex-col items-center justify-center py-20 gap-8">
+          <div className="flex flex-col items-center justify-center py-12 md:py-20 gap-6 md:gap-8">
             <Image
               src="/pink-quill-1.png"
               alt="Punk quill"
               width={300}
               height={180}
-              className="quill-scrawl opacity-80"
+              className="quill-scrawl opacity-80 w-[180px] md:w-[300px] h-auto"
               priority
             />
             <div className="punk-title text-2xl md:text-3xl text-[var(--color-neon-pink)] animate-pulse">
@@ -184,7 +184,7 @@ export default function Home() {
           /* Active quote display — art left, quote right on desktop */
           <div className="grid grid-cols-1 md:grid-cols-[minmax(0,1fr)_minmax(0,1.2fr)] gap-6 md:gap-10 items-start">
             {/* Art */}
-            <div className="relative aspect-square w-full max-w-lg mx-auto md:mx-0 overflow-hidden border-4 border-[var(--color-neon-pink)] shadow-[6px_6px_0_var(--color-neon-yellow)]">
+            <div className="relative aspect-square w-full max-w-lg mx-auto md:mx-0 overflow-hidden border-2 md:border-4 border-[var(--color-neon-pink)] shadow-[4px_4px_0_var(--color-neon-yellow)] md:shadow-[6px_6px_0_var(--color-neon-yellow)]">
               {(quote.imageUrl || quote.imageFile) && (
                 <Image
                   src={quote.imageUrl || `/art/${quote.imageFile}`}
@@ -213,7 +213,7 @@ export default function Home() {
               )}
 
               {/* Villain name */}
-              <h2 className="punk-title text-3xl md:text-5xl text-[var(--color-neon-yellow)] mb-4 -rotate-1">
+              <h2 className="punk-title text-2xl md:text-5xl text-[var(--color-neon-yellow)] mb-3 md:mb-4 -rotate-1">
                 {quote.villain}
               </h2>
 
@@ -225,7 +225,7 @@ export default function Home() {
               )}
 
               {/* Quote text */}
-              <blockquote className="text-lg md:text-xl font-mono leading-relaxed text-zinc-100 mb-5 pl-4 border-l-4 border-[var(--color-neon-pink)]">
+              <blockquote className="text-sm md:text-xl font-mono leading-relaxed text-zinc-100 mb-5 pl-3 md:pl-4 border-l-2 md:border-l-4 border-[var(--color-neon-pink)]">
                 {quote.quoteText.split("\n").map((line, i) => (
                   <span key={i}>
                     {line}
@@ -294,7 +294,7 @@ export default function Home() {
           <h3 className="punk-title text-2xl md:text-3xl text-[var(--color-neon-yellow)] mb-6">
             The Rogues&apos; Gallery
           </h3>
-          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-2 md:gap-4">
             {gallery.map((item, i) => (
               <button
                 key={`${item.villain}-${i}`}
