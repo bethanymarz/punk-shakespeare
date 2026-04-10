@@ -1,36 +1,60 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Punk Shakespeare
 
-## Getting Started
+**Name thy virtue -- meet thy villain.**
 
-First, run the development server:
+A web app that matches you with your Shakespearean foil. Enter your name and greatest virtue, and we'll summon the Shakespeare villain who is your perfect literary opposite -- complete with a punk rock portrait and a quote that cuts to the bone.
+
+Built on the complete works of Shakespeare from the [Folger Shakespeare Library](https://www.folger.edu/explore/shakespeares-works/download/).
+
+## How It Works
+
+1. Enter your name and your greatest virtue
+2. Claude picks the Shakespeare villain who best opposes that virtue
+3. A quote is selected that highlights the contrast between your virtue and the villain's nature
+4. A punk-style portrait is generated with AI (Gemini)
+5. You get your result: villain, quote, art, and a Shakespearean title for yourself
+
+While you wait, enjoy a stream of Shakespearean insults.
+
+## Tech Stack
+
+- **Next.js** (App Router, TypeScript, Tailwind CSS v4)
+- **Claude API** (Anthropic) -- villain matching + quote curation
+- **Gemini** (Google AI) -- punk portrait generation
+- **Supabase** -- image storage + generation history
+- **Sharp** -- image processing
+
+## Setup
 
 ```bash
+npm install
+cp .env.local.example .env.local  # Add your API keys
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Environment Variables
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+ANTHROPIC_API_KEY=         # Claude API key
+NANO_BANANA_API_KEY=       # Google AI API key (Gemini)
+NEXT_PUBLIC_SUPABASE_URL=  # Supabase project URL
+NEXT_PUBLIC_SUPABASE_ANON_KEY=  # Supabase anon key
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Data Pipeline
 
-## Learn More
+The app draws from pre-extracted villain speeches parsed from the Folger Shakespeare Library plain-text corpus (42 plays, sonnets, and poems in `texts/`).
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+node scripts/extract-quotes.js    # Parse texts -> data/extracted/
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Villains (38 total)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Iago, Lady Macbeth, Macbeth, Richard III, Claudius, Edmund, Shylock, Aaron, Caliban, Cassius, Tamora, Goneril, Regan, Angelo, Iachimo, Leontes, Proteus, Don John, Cloten, Hotspur, Cardinal Wolsey, Aufidius, Queen Margaret, Thersites, Timon, Falstaff, Petruchio, Malvolio, Bolingbroke, Oberon, Suffolk, Joan La Pucelle, Tybalt, Dionyza, Duke Frederick, Bertram, Antiochus, The Queen
 
-## Deploy on Vercel
+## Credits
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Shakespeare texts from the [Folger Shakespeare Library](https://www.folger.edu/explore/shakespeares-works/download/)
+- Art generated with Gemini (Google AI)
+- Built by [Bethany Crystal](https://www.linkedin.com/in/bethanymarz/)
