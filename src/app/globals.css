@@ -68,3 +68,20 @@
   transform: rotate(-1deg) scale(1.03);
   box-shadow: 4px 4px 0 var(--color-neon-pink), -2px -2px 0 var(--color-neon-yellow);
 }
+
+/* Quill scrawling animation */
+@keyframes scrawl {
+  0% { transform: translate(0, 0) rotate(-15deg); }
+  15% { transform: translate(8px, 2px) rotate(-12deg); }
+  30% { transform: translate(3px, -1px) rotate(-17deg); }
+  45% { transform: translate(10px, 3px) rotate(-10deg); }
+  60% { transform: translate(5px, 0px) rotate(-14deg); }
+  75% { transform: translate(12px, 2px) rotate(-11deg); }
+  90% { transform: translate(2px, -2px) rotate(-16deg); }
+  100% { transform: translate(0, 0) rotate(-15deg); }
+}
+
+.quill-scrawl {
+  animation: scrawl 1.5s ease-in-out infinite;
+  transform-origin: bottom left;
+}

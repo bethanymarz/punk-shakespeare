@@ -65,6 +65,51 @@ const VILLAIN_DISPLAY: Record<string, string> = {
   "cressida": "Cressida (Troilus and Cressida) — infidelity, broken vows, betrayal of love",
 };
 
+// Character-specific visual details from the plays for unique art generation
+const VILLAIN_VISUAL: Record<string, string> = {
+  "iago": "Venetian military officer, standard-bearer's uniform, deceptively trustworthy face hiding pure malice",
+  "lady-macbeth": "Bloodstained hands she cannot wash clean, sleepwalking with a candle, Scottish queen unraveling into madness",
+  "macbeth": "Scottish warrior-king with a bloodied crown, haunted eyes seeing phantom daggers, battle-worn armor",
+  "richard-iii": "Hunchbacked with a withered arm, boar emblem, twisted asymmetrical silhouette, stolen crown",
+  "claudius": "Danish king with a poisoner's vial, stolen crown and stolen queen, regal but hollow",
+  "edmund": "Bastard son with forged letters, calculated smile, dressed to rival legitimate nobility",
+  "shylock": "Jewish gaberdine gown, moneylender's scales, sharp knife for his pound of flesh",
+  "aaron": "Moor with jet-black skin he proudly flaunts, fiercely protecting his newborn child, gleeful in evil",
+  "caliban": "Puppy-headed monster with fish-like fins for arms, island creature neither human nor animal, primal and ancient",
+  "cassius": "Lean and hungry Roman conspirator, dagger hidden in his toga, envious sharp features",
+  "tamora": "Gothic queen of the Goths turned Roman empress, vengeful mother, draped in captured Roman finery",
+  "goneril": "Elder daughter in regal gown, cold imperious stare, poison vial concealed in her hand",
+  "regan": "Younger sister in blood-splattered noble dress, sadistic smile, plucking out Gloucester's eyes",
+  "angelo": "Deputy judge in black judicial robes, scales of justice tipped by hypocrisy, puritanical severity hiding lust",
+  "iachimo": "Italian gambler emerging from a trunk in a bedchamber, stealing a bracelet, smooth predatory charm",
+  "leontes": "Sicilian king gripping his throne with white knuckles, eyes wild with groundless jealousy, crown askew",
+  "proteus": "Young Veronese gentleman with two-faced mask, love letters to multiple women spilling from his doublet",
+  "don-john": "Bastard prince in all black, sullen scowl, scheming in shadows to ruin a wedding",
+  "cloten": "Boorish prince overdressed in finery that doesn't suit him, crude gestures, entitled sneer",
+  "hotspur": "Hot-headed rebel knight in battle armor, sword drawn impatiently, map of the kingdom torn in frustration",
+  "cardinal-wolsey": "Cardinal in sumptuous red robes with papal seal, purse of gold borne before him, ecclesiastical power",
+  "aufidius": "Volscian general in bloodied warrior armor, rival's banner in his fist, pragmatic killer's eyes",
+  "queen-margaret": "She-wolf queen with a paper crown, cloth dipped in her enemy's son's blood, furious war-painted face",
+  "thersites": "Ragged, foul-mouthed Greek camp-follower, twisted sneer, spitting contempt at heroes and warriors alike",
+  "timon": "Once-lavish Athenian lord now a cave-dwelling misanthrope in rags, digging for roots, cursing gold",
+  "falstaff": "Enormously fat knight sweating through buckram, tankard of sack wine in hand, belly straining his armor",
+  "petruchio": "Swaggering Paduan suitor in deliberately ragged wedding clothes, whip and riding crop, domineering stance",
+  "malvolio": "Puritanical steward humiliated in yellow stockings and cross-garters, chain of office, ridiculous forced smile",
+  "bolingbroke": "Usurper lord in exile's travel-worn armor, reaching for a crown that isn't his, calculating eyes",
+  "oberon": "Fairy king with antler-like crown, wielding the purple love-in-idleness flower as a weapon, forest shadows",
+  "suffolk": "Handsome earl whispering to the queen, one hand on his sword hilt and the other reaching for forbidden love",
+  "joan-la-pucelle": "French warrior-sorceress in battered armor, conjuring flames, peasant origins showing through battlefield grime",
+  "tybalt": "Prince of Cats in Capulet crimson, rapier drawn with feline grace, theatrical swordsman with lethal precision",
+  "dionyza": "Jealous guardian in respectable matron's dress hiding a murderous plot, false smile masking envy",
+  "duke-frederick": "Usurping duke in his stolen brother's throne room, paranoid glare, banishing gesture",
+  "bertram": "Young French count fleeing his wedding in soldier's kit, broken ring and discarded promises behind him",
+  "antiochus": "Ancient tyrant king with an incestuous secret, riddle-scroll in hand, threatening death to truth-seekers",
+  "the-queen": "Nameless wicked stepmother queen brewing poisons in a castle laboratory, beautiful exterior hiding venom",
+  "cleopatra": "Egyptian queen on a golden barge with purple sails, serpent of the Nile, asp at her breast, impossible luxury",
+  "volumnia": "Stern Roman matron counting her son's twenty-five battle scars with pride, dressed in war trophies not jewelry",
+  "cressida": "Trojan beauty swearing eternal love while already glancing toward the Greek camp, faithless eyes, broken vows",
+};
+
 const VILLAIN_FOLGER_SLUG: Record<string, string> = {
   "iago": "othello",
   "lady-macbeth": "macbeth",
@@ -134,7 +179,11 @@ export async function POST(request: Request) {
     const anthropic = new Anthropic({ apiKey: anthropicKey });
 
     // 1. Ask Claude to pick the villain who is the best literary foil to this virtue
-    const villainList = Object.entries(VILLAIN_DISPLAY)
+    // Randomly select a subset of villains to force variety across generations
+    const allVillainEntries = Object.entries(VILLAIN_DISPLAY);
+    const shuffledVillains = allVillainEntries.sort(() => Math.random() - 0.5);
+    const candidatePool = shuffledVillains.slice(0, 12);
+    const villainList = candidatePool
       .map(([slug, desc]) => `- ${slug}: ${desc}`)
       .join("\n");
 
@@ -222,7 +271,7 @@ ${JSON.stringify(sample.map((s: { act: number; scene: number; fullText: string }
     });
 
     const artResponse = await model.generateContent(
-      `${ART_STYLE} ${quote.artPrompt}`
+      `${ART_STYLE} Character details: ${VILLAIN_VISUAL[villainFile] || ""}. ${quote.artPrompt}`
     );
 
     const parts = artResponse.response.candidates?.[0]?.content?.parts;

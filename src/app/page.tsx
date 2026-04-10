@@ -96,13 +96,25 @@ export default function Home() {
   return (
     <main className="min-h-screen">
       {/* Hero header */}
-      <header className="px-6 pt-8 pb-4 text-center stripe-bg border-b-2 border-[var(--color-neon-pink)]">
-        <h1 className="punk-title text-5xl md:text-7xl text-[var(--color-neon-pink)]">
-          Punk Shakespeare
-        </h1>
-        <p className="font-mono text-xs md:text-sm text-[var(--color-neon-yellow)] mt-2 tracking-[0.3em] uppercase">
-          Name thy virtue — meet thy villain
-        </p>
+      <header className="px-6 pt-8 pb-4 stripe-bg border-b-2 border-[var(--color-neon-pink)]">
+        <div className="flex items-center justify-center gap-5 md:gap-8">
+          <Image
+            src="/shakes-skull.png"
+            alt="Punk Shakespeare skull"
+            width={240}
+            height={280}
+            className="-rotate-[20deg]"
+            priority
+          />
+          <div className="text-center md:text-left">
+            <h1 className="punk-title text-5xl md:text-7xl text-[var(--color-neon-pink)]">
+              Punk Shakespeare
+            </h1>
+            <p className="font-mono text-xs md:text-sm text-[var(--color-neon-yellow)] mt-2 tracking-[0.3em] uppercase">
+              Name thy virtue — meet thy villain
+            </p>
+          </div>
+        </div>
       </header>
 
       {/* Main content — quote + art side by side, no scroll needed */}
@@ -155,6 +167,14 @@ export default function Home() {
         ) : generating && !quote ? (
           /* First generation loading — with rotating insults */
           <div className="flex flex-col items-center justify-center py-20 gap-8">
+            <Image
+              src="/pink-quill-1.png"
+              alt="Punk quill"
+              width={300}
+              height={180}
+              className="quill-scrawl opacity-80"
+              priority
+            />
             <div className="punk-title text-2xl md:text-3xl text-[var(--color-neon-pink)] animate-pulse">
               Finding your foil...
             </div>
