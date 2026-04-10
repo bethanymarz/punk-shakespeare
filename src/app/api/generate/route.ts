@@ -155,7 +155,7 @@ const VILLAIN_FOLGER_SLUG: Record<string, string> = {
 };
 
 const ART_STYLE =
-  "A punk rock portrait of a Shakespeare villain. Bold graphic style mixing Elizabethan costume with punk aesthetics — mohawks, safety pins, leather, studs, torn ruffs, spiked crowns. High contrast, gritty texture, screen-print and zine aesthetic with splashes of neon color against dark backgrounds. No text, no lettering, no words in the image.";
+  "A punk rock portrait of a Shakespeare villain. Bold graphic style mixing Elizabethan costume with punk aesthetics — safety pins, leather, studs, torn ruffs, chains, patches, tattoos, piercings, ripped lace, spiked jewelry. IMPORTANT: Vary the hairstyle — do NOT default to a mohawk. Use shaved sides, wild long hair, braids with beads, liberty spikes, a buzz cut, dreads, slicked-back undercut, messy curls, or period-accurate hair with punk accents. High contrast, gritty texture, screen-print and zine aesthetic with splashes of neon color against dark backgrounds. No text, no lettering, no words in the image.";
 
 export async function POST(request: Request) {
   const anthropicKey = process.env.ANTHROPIC_API_KEY;
