@@ -1,0 +1,2038 @@
+[
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 1,
+    "scene": 2,
+    "lines": [
+      "Fellow, come from the throng.",
+      "Look upon Caesar."
+    ],
+    "startLine": 240,
+    "fullText": "Fellow, come from the throng. Look upon Caesar.",
+    "lineCount": 2
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 1,
+    "scene": 2,
+    "lines": [
+      "Will you go see the order of the course?"
+    ],
+    "startLine": 254,
+    "fullText": "Will you go see the order of the course?",
+    "lineCount": 1
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 1,
+    "scene": 2,
+    "lines": [
+      "I pray you, do."
+    ],
+    "startLine": 259,
+    "fullText": "I pray you, do.",
+    "lineCount": 1
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 1,
+    "scene": 2,
+    "lines": [
+      "Brutus, I do observe you now of late.",
+      "I have not from your eyes that gentleness",
+      "And show of love as I was wont to have.",
+      "You bear too stubborn and too strange a hand",
+      "Over your friend that loves you."
+    ],
+    "startLine": 267,
+    "fullText": "Brutus, I do observe you now of late. I have not from your eyes that gentleness And show of love as I was wont to have. You bear too stubborn and too strange a hand Over your friend that loves you.",
+    "lineCount": 5
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 1,
+    "scene": 2,
+    "lines": [
+      "Then, Brutus, I have much mistook your passion,",
+      "By means whereof this breast of mine hath buried",
+      "Thoughts of great value, worthy cogitations.",
+      "Tell me, good Brutus, can you see your face?"
+    ],
+    "startLine": 287,
+    "fullText": "Then, Brutus, I have much mistook your passion, By means whereof this breast of mine hath buried Thoughts of great value, worthy cogitations. Tell me, good Brutus, can you see your face?",
+    "lineCount": 4
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 1,
+    "scene": 2,
+    "lines": [
+      "'Tis just.",
+      "And it is very much lamented, Brutus,",
+      "That you have no such mirrors as will turn",
+      "Your hidden worthiness into your eye,",
+      "That you might see your shadow. I have heard",
+      "Where many of the best respect in Rome,",
+      "Except immortal Caesar, speaking of Brutus",
+      "And groaning underneath this age's yoke,",
+      "Have wished that noble Brutus had his eyes."
+    ],
+    "startLine": 297,
+    "fullText": "'Tis just. And it is very much lamented, Brutus, That you have no such mirrors as will turn Your hidden worthiness into your eye, That you might see your shadow. I have heard Where many of the best respect in Rome, Except immortal Caesar, speaking of Brutus And groaning underneath this age's yoke, Have wished that noble Brutus had his eyes.",
+    "lineCount": 9
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 1,
+    "scene": 2,
+    "lines": [
+      "Therefore, good Brutus, be prepared to hear.",
+      "And since you know you cannot see yourself",
+      "So well as by reflection, I, your glass,",
+      "Will modestly discover to yourself",
+      "That of yourself which you yet know not of.",
+      "And be not jealous on me, gentle Brutus.",
+      "Were I a common laughter, or did use",
+      "To stale with ordinary oaths my love",
+      "To every new protester; if you know",
+      "That I do fawn on men and hug them hard",
+      "And after scandal them, or if you know",
+      "That I profess myself in banqueting",
+      "To all the rout, then hold me dangerous."
+    ],
+    "startLine": 312,
+    "fullText": "Therefore, good Brutus, be prepared to hear. And since you know you cannot see yourself So well as by reflection, I, your glass, Will modestly discover to yourself That of yourself which you yet know not of. And be not jealous on me, gentle Brutus. Were I a common laughter, or did use To stale with ordinary oaths my love To every new protester; if you know That I do fawn on men and hug them hard And after scandal them, or if you know That I profess myself in banqueting To all the rout, then hold me dangerous.",
+    "lineCount": 13
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 1,
+    "scene": 2,
+    "lines": [
+      "Ay, do you fear it?",
+      "Then must I think you would not have it so."
+    ],
+    "startLine": 332,
+    "fullText": "Ay, do you fear it? Then must I think you would not have it so.",
+    "lineCount": 2
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 1,
+    "scene": 2,
+    "lines": [
+      "I know that virtue to be in you, Brutus,",
+      "As well as I do know your outward favor.",
+      "Well, honor is the subject of my story.",
+      "I cannot tell what you and other men",
+      "Think of this life; but, for my single self,",
+      "I had as lief not be as live to be",
+      "In awe of such a thing as I myself.",
+      "I was born free as Caesar; so were you;",
+      "We both have fed as well, and we can both",
+      "Endure the winter's cold as well as he.",
+      "For once, upon a raw and gusty day,",
+      "The troubled Tiber chafing with her shores,",
+      "Caesar said to me \"Dar'st thou, Cassius, now",
+      "Leap in with me into this angry flood",
+      "And swim to yonder point?\" Upon the word,",
+      "Accoutered as I was, I plunged in",
+      "And bade him follow; so indeed he did.",
+      "The torrent roared, and we did buffet it",
+      "With lusty sinews, throwing it aside",
+      "And stemming it with hearts of controversy.",
+      "But ere we could arrive the point proposed,",
+      "Caesar cried \"Help me, Cassius, or I sink!\"",
+      "I, as Aeneas, our great ancestor,",
+      "Did from the flames of Troy upon his shoulder",
+      "The old Anchises bear, so from the waves of Tiber",
+      "Did I the tired Caesar. And this man",
+      "Is now become a god, and Cassius is",
+      "A wretched creature and must bend his body",
+      "If Caesar carelessly but nod on him.",
+      "He had a fever when he was in Spain,",
+      "And when the fit was on him, I did mark",
+      "How he did shake. 'Tis true, this god did shake.",
+      "His coward lips did from their color fly,",
+      "And that same eye whose bend doth awe the world",
+      "Did lose his luster. I did hear him groan.",
+      "Ay, and that tongue of his that bade the Romans",
+      "Mark him and write his speeches in their books,",
+      "\"Alas,\" it cried \"Give me some drink, Titinius\"",
+      "As a sick girl. You gods, it doth amaze me",
+      "A man of such a feeble temper should",
+      "So get the start of the majestic world",
+      "And bear the palm alone."
+    ],
+    "startLine": 345,
+    "fullText": "I know that virtue to be in you, Brutus, As well as I do know your outward favor. Well, honor is the subject of my story. I cannot tell what you and other men Think of this life; but, for my single self, I had as lief not be as live to be In awe of such a thing as I myself. I was born free as Caesar; so were you; We both have fed as well, and we can both Endure the winter's cold as well as he. For once, upon a raw and gusty day, The troubled Tiber chafing with her shores, Caesar said to me \"Dar'st thou, Cassius, now Leap in with me into this angry flood And swim to yonder point?\" Upon the word, Accoutered as I was, I plunged in And bade him follow; so indeed he did. The torrent roared, and we did buffet it With lusty sinews, throwing it aside And stemming it with hearts of controversy. But ere we could arrive the point proposed, Caesar cried \"Help me, Cassius, or I sink!\" I, as Aeneas, our great ancestor, Did from the flames of Troy upon his shoulder The old Anchises bear, so from the waves of Tiber Did I the tired Caesar. And this man Is now become a god, and Cassius is A wretched creature and must bend his body If Caesar carelessly but nod on him. He had a fever when he was in Spain, And when the fit was on him, I did mark How he did shake. 'Tis true, this god did shake. His coward lips did from their color fly, And that same eye whose bend doth awe the world Did lose his luster. I did hear him groan. Ay, and that tongue of his that bade the Romans Mark him and write his speeches in their books, \"Alas,\" it cried \"Give me some drink, Titinius\" As a sick girl. You gods, it doth amaze me A man of such a feeble temper should So get the start of the majestic world And bear the palm alone.",
+    "lineCount": 42
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 1,
+    "scene": 2,
+    "lines": [
+      "Why, man, he doth bestride the narrow world",
+      "Like a Colossus, and we petty men",
+      "Walk under his huge legs and peep about",
+      "To find ourselves dishonorable graves.",
+      "Men at some time are masters of their fates.",
+      "The fault, dear Brutus, is not in our stars,",
+      "But in ourselves, that we are underlings.",
+      "\"Brutus\" and \"Caesar\"--what should be in that",
+      "\"Caesar\"?",
+      "Why should that name be sounded more than",
+      "yours?",
+      "Write them together, yours is as fair a name;",
+      "Sound them, it doth become the mouth as well;",
+      "Weigh them, it is as heavy; conjure with 'em,",
+      "\"Brutus\" will start a spirit as soon as \"Caesar.\"",
+      "Now, in the names of all the gods at once,",
+      "Upon what meat doth this our Caesar feed",
+      "That he is grown so great? Age, thou art shamed!",
+      "Rome, thou hast lost the breed of noble bloods!",
+      "When went there by an age, since the great flood,",
+      "But it was famed with more than with one man?",
+      "When could they say, till now, that talked of Rome,",
+      "That her wide walks encompassed but one man?",
+      "Now is it Rome indeed, and room enough",
+      "When there is in it but one only man.",
+      "O, you and I have heard our fathers say",
+      "There was a Brutus once that would have brooked",
+      "Th' eternal devil to keep his state in Rome",
+      "As easily as a king."
+    ],
+    "startLine": 394,
+    "fullText": "Why, man, he doth bestride the narrow world Like a Colossus, and we petty men Walk under his huge legs and peep about To find ourselves dishonorable graves. Men at some time are masters of their fates. The fault, dear Brutus, is not in our stars, But in ourselves, that we are underlings. \"Brutus\" and \"Caesar\"--what should be in that \"Caesar\"? Why should that name be sounded more than yours? Write them together, yours is as fair a name; Sound them, it doth become the mouth as well; Weigh them, it is as heavy; conjure with 'em, \"Brutus\" will start a spirit as soon as \"Caesar.\" Now, in the names of all the gods at once, Upon what meat doth this our Caesar feed That he is grown so great? Age, thou art shamed! Rome, thou hast lost the breed of noble bloods! When went there by an age, since the great flood, But it was famed with more than with one man? When could they say, till now, that talked of Rome, That her wide walks encompassed but one man? Now is it Rome indeed, and room enough When there is in it but one only man. O, you and I have heard our fathers say There was a Brutus once that would have brooked Th' eternal devil to keep his state in Rome As easily as a king.",
+    "lineCount": 29
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 1,
+    "scene": 2,
+    "lines": [
+      "I am glad that my weak words",
+      "Have struck but thus much show of fire from",
+      "Brutus."
+    ],
+    "startLine": 441,
+    "fullText": "I am glad that my weak words Have struck but thus much show of fire from Brutus.",
+    "lineCount": 3
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 1,
+    "scene": 2,
+    "lines": [
+      "As they pass by, pluck Casca by the sleeve,",
+      "And he will, after his sour fashion, tell you",
+      "What hath proceeded worthy note today."
+    ],
+    "startLine": 451,
+    "fullText": "As they pass by, pluck Casca by the sleeve, And he will, after his sour fashion, tell you What hath proceeded worthy note today.",
+    "lineCount": 3
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 1,
+    "scene": 2,
+    "lines": [
+      "Casca will tell us what the matter is."
+    ],
+    "startLine": 465,
+    "fullText": "Casca will tell us what the matter is.",
+    "lineCount": 1
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 1,
+    "scene": 2,
+    "lines": [
+      "They shouted thrice. What was the last cry for?"
+    ],
+    "startLine": 523,
+    "fullText": "They shouted thrice. What was the last cry for?",
+    "lineCount": 1
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 1,
+    "scene": 2,
+    "lines": [
+      "Who offered him the crown?"
+    ],
+    "startLine": 534,
+    "fullText": "Who offered him the crown?",
+    "lineCount": 1
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 1,
+    "scene": 2,
+    "lines": [
+      "But soft, I pray you. What, did Caesar swoon?"
+    ],
+    "startLine": 559,
+    "fullText": "But soft, I pray you. What, did Caesar swoon?",
+    "lineCount": 1
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 1,
+    "scene": 2,
+    "lines": [
+      "No, Caesar hath it not; but you and I",
+      "And honest Casca, we have the falling sickness."
+    ],
+    "startLine": 568,
+    "fullText": "No, Caesar hath it not; but you and I And honest Casca, we have the falling sickness.",
+    "lineCount": 2
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 1,
+    "scene": 2,
+    "lines": [
+      "Did Cicero say anything?"
+    ],
+    "startLine": 600,
+    "fullText": "Did Cicero say anything?",
+    "lineCount": 1
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 1,
+    "scene": 2,
+    "lines": [
+      "To what effect?"
+    ],
+    "startLine": 604,
+    "fullText": "To what effect?",
+    "lineCount": 1
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 1,
+    "scene": 2,
+    "lines": [
+      "Will you sup with me tonight, Casca?"
+    ],
+    "startLine": 615,
+    "fullText": "Will you sup with me tonight, Casca?",
+    "lineCount": 1
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 1,
+    "scene": 2,
+    "lines": [
+      "Will you dine with me tomorrow?"
+    ],
+    "startLine": 619,
+    "fullText": "Will you dine with me tomorrow?",
+    "lineCount": 1
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 1,
+    "scene": 2,
+    "lines": [
+      "Good. I will expect you."
+    ],
+    "startLine": 624,
+    "fullText": "Good. I will expect you.",
+    "lineCount": 1
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 1,
+    "scene": 2,
+    "lines": [
+      "So is he now in execution",
+      "Of any bold or noble enterprise,",
+      "However he puts on this tardy form.",
+      "This rudeness is a sauce to his good wit,",
+      "Which gives men stomach to digest his words",
+      "With better appetite."
+    ],
+    "startLine": 632,
+    "fullText": "So is he now in execution Of any bold or noble enterprise, However he puts on this tardy form. This rudeness is a sauce to his good wit, Which gives men stomach to digest his words With better appetite.",
+    "lineCount": 6
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 1,
+    "scene": 2,
+    "lines": [
+      "I will do so. Till then, think of the world.",
+      "Well, Brutus, thou art noble. Yet I see",
+      "Thy honorable mettle may be wrought",
+      "From that it is disposed. Therefore it is meet",
+      "That noble minds keep ever with their likes;",
+      "For who so firm that cannot be seduced?",
+      "Caesar doth bear me hard, but he loves Brutus.",
+      "If I were Brutus now, and he were Cassius,",
+      "He should not humor me. I will this night",
+      "In several hands in at his windows throw,",
+      "As if they came from several citizens,",
+      "Writings, all tending to the great opinion",
+      "That Rome holds of his name, wherein obscurely",
+      "Caesar's ambition shall be glanced at",
+      "And after this, let Caesar seat him sure,",
+      "For we will shake him, or worse days endure."
+    ],
+    "startLine": 646,
+    "fullText": "I will do so. Till then, think of the world. Well, Brutus, thou art noble. Yet I see Thy honorable mettle may be wrought From that it is disposed. Therefore it is meet That noble minds keep ever with their likes; For who so firm that cannot be seduced? Caesar doth bear me hard, but he loves Brutus. If I were Brutus now, and he were Cassius, He should not humor me. I will this night In several hands in at his windows throw, As if they came from several citizens, Writings, all tending to the great opinion That Rome holds of his name, wherein obscurely Caesar's ambition shall be glanced at And after this, let Caesar seat him sure, For we will shake him, or worse days endure.",
+    "lineCount": 16
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 1,
+    "scene": 3,
+    "lines": [
+      "Who's there?"
+    ],
+    "startLine": 730,
+    "fullText": "Who's there?",
+    "lineCount": 1
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 1,
+    "scene": 3,
+    "lines": [
+      "Casca, by your voice."
+    ],
+    "startLine": 735,
+    "fullText": "Casca, by your voice.",
+    "lineCount": 1
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 1,
+    "scene": 3,
+    "lines": [
+      "A very pleasing night to honest men."
+    ],
+    "startLine": 740,
+    "fullText": "A very pleasing night to honest men.",
+    "lineCount": 1
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 1,
+    "scene": 3,
+    "lines": [
+      "Those that have known the Earth so full of faults.",
+      "For my part, I have walked about the streets,",
+      "Submitting me unto the perilous night,",
+      "And thus unbraced, Casca, as you see,",
+      "Have bared my bosom to the thunder-stone;",
+      "And when the cross blue lightning seemed to open",
+      "The breast of heaven, I did present myself",
+      "Even in the aim and very flash of it."
+    ],
+    "startLine": 746,
+    "fullText": "Those that have known the Earth so full of faults. For my part, I have walked about the streets, Submitting me unto the perilous night, And thus unbraced, Casca, as you see, Have bared my bosom to the thunder-stone; And when the cross blue lightning seemed to open The breast of heaven, I did present myself Even in the aim and very flash of it.",
+    "lineCount": 8
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 1,
+    "scene": 3,
+    "lines": [
+      "You are dull, Casca, and those sparks of life",
+      "That should be in a Roman you do want,",
+      "Or else you use not. You look pale, and gaze,",
+      "And put on fear, and cast yourself in wonder,",
+      "To see the strange impatience of the heavens.",
+      "But if you would consider the true cause",
+      "Why all these fires, why all these gliding ghosts,",
+      "Why birds and beasts from quality and kind,",
+      "Why old men, fools, and children calculate,",
+      "Why all these things change from their ordinance,",
+      "Their natures, and preformed faculties,",
+      "To monstrous quality--why, you shall find",
+      "That heaven hath infused them with these spirits",
+      "To make them instruments of fear and warning",
+      "Unto some monstrous state.",
+      "Now could I, Casca, name to thee a man",
+      "Most like this dreadful night,",
+      "That thunders, lightens, opens graves, and roars",
+      "As doth the lion in the Capitol;",
+      "A man no mightier than thyself or me",
+      "In personal action, yet prodigious grown,",
+      "And fearful, as these strange eruptions are."
+    ],
+    "startLine": 762,
+    "fullText": "You are dull, Casca, and those sparks of life That should be in a Roman you do want, Or else you use not. You look pale, and gaze, And put on fear, and cast yourself in wonder, To see the strange impatience of the heavens. But if you would consider the true cause Why all these fires, why all these gliding ghosts, Why birds and beasts from quality and kind, Why old men, fools, and children calculate, Why all these things change from their ordinance, Their natures, and preformed faculties, To monstrous quality--why, you shall find That heaven hath infused them with these spirits To make them instruments of fear and warning Unto some monstrous state. Now could I, Casca, name to thee a man Most like this dreadful night, That thunders, lightens, opens graves, and roars As doth the lion in the Capitol; A man no mightier than thyself or me In personal action, yet prodigious grown, And fearful, as these strange eruptions are.",
+    "lineCount": 22
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 1,
+    "scene": 3,
+    "lines": [
+      "Let it be who it is. For Romans now",
+      "Have thews and limbs like to their ancestors.",
+      "But, woe the while, our fathers' minds are dead,",
+      "And we are governed with our mothers' spirits.",
+      "Our yoke and sufferance show us womanish."
+    ],
+    "startLine": 789,
+    "fullText": "Let it be who it is. For Romans now Have thews and limbs like to their ancestors. But, woe the while, our fathers' minds are dead, And we are governed with our mothers' spirits. Our yoke and sufferance show us womanish.",
+    "lineCount": 5
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 1,
+    "scene": 3,
+    "lines": [
+      "I know where I will wear this dagger then;",
+      "Cassius from bondage will deliver Cassius.",
+      "Therein, you gods, you make the weak most strong;",
+      "Therein, you gods, you tyrants do defeat.",
+      "Nor stony tower, nor walls of beaten brass,",
+      "Nor airless dungeon, nor strong links of iron,",
+      "Can be retentive to the strength of spirit;",
+      "But life, being weary of these worldly bars,",
+      "Never lacks power to dismiss itself.",
+      "If I know this, know all the world besides,",
+      "That part of tyranny that I do bear",
+      "I can shake off at pleasure."
+    ],
+    "startLine": 802,
+    "fullText": "I know where I will wear this dagger then; Cassius from bondage will deliver Cassius. Therein, you gods, you make the weak most strong; Therein, you gods, you tyrants do defeat. Nor stony tower, nor walls of beaten brass, Nor airless dungeon, nor strong links of iron, Can be retentive to the strength of spirit; But life, being weary of these worldly bars, Never lacks power to dismiss itself. If I know this, know all the world besides, That part of tyranny that I do bear I can shake off at pleasure.",
+    "lineCount": 12
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 1,
+    "scene": 3,
+    "lines": [
+      "And why should Caesar be a tyrant, then?",
+      "Poor man, I know he would not be a wolf",
+      "But that he sees the Romans are but sheep;",
+      "He were no lion, were not Romans hinds.",
+      "Those that with haste will make a mighty fire",
+      "Begin it with weak straws. What trash is Rome,",
+      "What rubbish, and what offal when it serves",
+      "For the base matter to illuminate",
+      "So vile a thing as Caesar! But, O grief,",
+      "Where hast thou led me? I perhaps speak this",
+      "Before a willing bondman; then, I know",
+      "My answer must be made. But I am armed,",
+      "And dangers are to me indifferent."
+    ],
+    "startLine": 820,
+    "fullText": "And why should Caesar be a tyrant, then? Poor man, I know he would not be a wolf But that he sees the Romans are but sheep; He were no lion, were not Romans hinds. Those that with haste will make a mighty fire Begin it with weak straws. What trash is Rome, What rubbish, and what offal when it serves For the base matter to illuminate So vile a thing as Caesar! But, O grief, Where hast thou led me? I perhaps speak this Before a willing bondman; then, I know My answer must be made. But I am armed, And dangers are to me indifferent.",
+    "lineCount": 13
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 1,
+    "scene": 3,
+    "lines": [
+      "There's a bargain made.",
+      "Now know you, Casca, I have moved already",
+      "Some certain of the noblest-minded Romans",
+      "To undergo with me an enterprise",
+      "Of honorable-dangerous consequence.",
+      "And I do know by this they stay for me",
+      "In Pompey's Porch. For now, this fearful night,",
+      "There is no stir or walking in the streets;",
+      "And the complexion of the element",
+      "In favor 's like the work we have in hand,",
+      "Most bloody, fiery, and most terrible."
+    ],
+    "startLine": 843,
+    "fullText": "There's a bargain made. Now know you, Casca, I have moved already Some certain of the noblest-minded Romans To undergo with me an enterprise Of honorable-dangerous consequence. And I do know by this they stay for me In Pompey's Porch. For now, this fearful night, There is no stir or walking in the streets; And the complexion of the element In favor 's like the work we have in hand, Most bloody, fiery, and most terrible.",
+    "lineCount": 11
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 1,
+    "scene": 3,
+    "lines": [
+      "'Tis Cinna; I do know him by his gait.",
+      "He is a friend.--Cinna, where haste you so?"
+    ],
+    "startLine": 861,
+    "fullText": "'Tis Cinna; I do know him by his gait. He is a friend.--Cinna, where haste you so?",
+    "lineCount": 2
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 1,
+    "scene": 3,
+    "lines": [
+      "No, it is Casca, one incorporate",
+      "To our attempts. Am I not stayed for, Cinna?"
+    ],
+    "startLine": 868,
+    "fullText": "No, it is Casca, one incorporate To our attempts. Am I not stayed for, Cinna?",
+    "lineCount": 2
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 1,
+    "scene": 3,
+    "lines": [
+      "Am I not stayed for? Tell me."
+    ],
+    "startLine": 876,
+    "fullText": "Am I not stayed for? Tell me.",
+    "lineCount": 1
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 1,
+    "scene": 3,
+    "lines": [
+      "Be you content. Good Cinna, take this paper,",
+      "And look you lay it in the Praetor's chair,",
+      "Where Brutus may but find it; and throw this",
+      "In at his window; set this up with wax",
+      "Upon old Brutus' statue. All this done,",
+      "Repair to Pompey's Porch, where you shall find us.",
+      "Is Decius Brutus and Trebonius there?"
+    ],
+    "startLine": 882,
+    "fullText": "Be you content. Good Cinna, take this paper, And look you lay it in the Praetor's chair, Where Brutus may but find it; and throw this In at his window; set this up with wax Upon old Brutus' statue. All this done, Repair to Pompey's Porch, where you shall find us. Is Decius Brutus and Trebonius there?",
+    "lineCount": 7
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 1,
+    "scene": 3,
+    "lines": [
+      "That done, repair to Pompey's Theater.",
+      "Come, Casca, you and I will yet ere day",
+      "See Brutus at his house. Three parts of him",
+      "Is ours already, and the man entire",
+      "Upon the next encounter yields him ours."
+    ],
+    "startLine": 896,
+    "fullText": "That done, repair to Pompey's Theater. Come, Casca, you and I will yet ere day See Brutus at his house. Three parts of him Is ours already, and the man entire Upon the next encounter yields him ours.",
+    "lineCount": 5
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 1,
+    "scene": 3,
+    "lines": [
+      "Him and his worth and our great need of him",
+      "You have right well conceited. Let us go,",
+      "For it is after midnight, and ere day",
+      "We will awake him and be sure of him."
+    ],
+    "startLine": 910,
+    "fullText": "Him and his worth and our great need of him You have right well conceited. Let us go, For it is after midnight, and ere day We will awake him and be sure of him.",
+    "lineCount": 4
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 2,
+    "scene": 1,
+    "lines": [
+      "I think we are too bold upon your rest.",
+      "Good morrow, Brutus. Do we trouble you?"
+    ],
+    "startLine": 1069,
+    "fullText": "I think we are too bold upon your rest. Good morrow, Brutus. Do we trouble you?",
+    "lineCount": 2
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 2,
+    "scene": 1,
+    "lines": [
+      "Yes, every man of them; and no man here",
+      "But honors you, and every one doth wish",
+      "You had but that opinion of yourself",
+      "Which every noble Roman bears of you.",
+      "This is Trebonius."
+    ],
+    "startLine": 1077,
+    "fullText": "Yes, every man of them; and no man here But honors you, and every one doth wish You had but that opinion of yourself Which every noble Roman bears of you. This is Trebonius.",
+    "lineCount": 5
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 2,
+    "scene": 1,
+    "lines": [
+      "This, Decius Brutus."
+    ],
+    "startLine": 1086,
+    "fullText": "This, Decius Brutus.",
+    "lineCount": 1
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 2,
+    "scene": 1,
+    "lines": [
+      "This, Casca; this, Cinna; and this, Metellus Cimber."
+    ],
+    "startLine": 1091,
+    "fullText": "This, Casca; this, Cinna; and this, Metellus Cimber.",
+    "lineCount": 1
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 2,
+    "scene": 1,
+    "lines": [
+      "Shall I entreat a word?"
+    ],
+    "startLine": 1098,
+    "fullText": "Shall I entreat a word?",
+    "lineCount": 1
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 2,
+    "scene": 1,
+    "lines": [
+      "And let us swear our resolution."
+    ],
+    "startLine": 1123,
+    "fullText": "And let us swear our resolution.",
+    "lineCount": 1
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 2,
+    "scene": 1,
+    "lines": [
+      "But what of Cicero? Shall we sound him?",
+      "I think he will stand very strong with us."
+    ],
+    "startLine": 1155,
+    "fullText": "But what of Cicero? Shall we sound him? I think he will stand very strong with us.",
+    "lineCount": 2
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 2,
+    "scene": 1,
+    "lines": [
+      "Then leave him out."
+    ],
+    "startLine": 1177,
+    "fullText": "Then leave him out.",
+    "lineCount": 1
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 2,
+    "scene": 1,
+    "lines": [
+      "Decius, well urged. I think it is not meet",
+      "Mark Antony, so well beloved of Caesar,",
+      "Should outlive Caesar. We shall find of him",
+      "A shrewd contriver; and, you know, his means,",
+      "If he improve them, may well stretch so far",
+      "As to annoy us all; which to prevent,",
+      "Let Antony and Caesar fall together."
+    ],
+    "startLine": 1184,
+    "fullText": "Decius, well urged. I think it is not meet Mark Antony, so well beloved of Caesar, Should outlive Caesar. We shall find of him A shrewd contriver; and, you know, his means, If he improve them, may well stretch so far As to annoy us all; which to prevent, Let Antony and Caesar fall together.",
+    "lineCount": 7
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 2,
+    "scene": 1,
+    "lines": [
+      "Yet I fear him,",
+      "For in the engrafted love he bears to Caesar--"
+    ],
+    "startLine": 1217,
+    "fullText": "Yet I fear him, For in the engrafted love he bears to Caesar--",
+    "lineCount": 2
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 2,
+    "scene": 1,
+    "lines": [
+      "The clock hath stricken",
+      "three."
+    ],
+    "startLine": 1235,
+    "fullText": "The clock hath stricken three.",
+    "lineCount": 2
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 2,
+    "scene": 1,
+    "lines": [
+      "But it is doubtful yet",
+      "Whether Caesar will come forth today or no,",
+      "For he is superstitious grown of late,",
+      "Quite from the main opinion he held once",
+      "Of fantasy, of dreams, and ceremonies.",
+      "It may be these apparent prodigies,",
+      "The unaccustomed terror of this night,",
+      "And the persuasion of his augurers",
+      "May hold him from the Capitol today."
+    ],
+    "startLine": 1241,
+    "fullText": "But it is doubtful yet Whether Caesar will come forth today or no, For he is superstitious grown of late, Quite from the main opinion he held once Of fantasy, of dreams, and ceremonies. It may be these apparent prodigies, The unaccustomed terror of this night, And the persuasion of his augurers May hold him from the Capitol today.",
+    "lineCount": 9
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 2,
+    "scene": 1,
+    "lines": [
+      "Nay, we will all of us be there to fetch him."
+    ],
+    "startLine": 1263,
+    "fullText": "Nay, we will all of us be there to fetch him.",
+    "lineCount": 1
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 2,
+    "scene": 1,
+    "lines": [
+      "The morning comes upon 's. We'll leave you,",
+      "Brutus.",
+      "And, friends, disperse yourselves, but all remember",
+      "What you have said, and show yourselves true",
+      "Romans."
+    ],
+    "startLine": 1282,
+    "fullText": "The morning comes upon 's. We'll leave you, Brutus. And, friends, disperse yourselves, but all remember What you have said, and show yourselves true Romans.",
+    "lineCount": 5
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 3,
+    "scene": 1,
+    "lines": [
+      "What, urge you your petitions in the street?",
+      "Come to the Capitol."
+    ],
+    "startLine": 1839,
+    "fullText": "What, urge you your petitions in the street? Come to the Capitol.",
+    "lineCount": 2
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 3,
+    "scene": 1,
+    "lines": [
+      "What enterprise, Popilius?"
+    ],
+    "startLine": 1847,
+    "fullText": "What enterprise, Popilius?",
+    "lineCount": 1
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 3,
+    "scene": 1,
+    "lines": [
+      "He wished today our enterprise might thrive.",
+      "I fear our purpose is discovered."
+    ],
+    "startLine": 1853,
+    "fullText": "He wished today our enterprise might thrive. I fear our purpose is discovered.",
+    "lineCount": 2
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 3,
+    "scene": 1,
+    "lines": [
+      "Casca, be sudden, for we fear prevention.--",
+      "Brutus, what shall be done? If this be known,",
+      "Cassius or Caesar never shall turn back,",
+      "For I will slay myself."
+    ],
+    "startLine": 1860,
+    "fullText": "Casca, be sudden, for we fear prevention.-- Brutus, what shall be done? If this be known, Cassius or Caesar never shall turn back, For I will slay myself.",
+    "lineCount": 4
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 3,
+    "scene": 1,
+    "lines": [
+      "Trebonius knows his time, for look you, Brutus,",
+      "He draws Mark Antony out of the way."
+    ],
+    "startLine": 1870,
+    "fullText": "Trebonius knows his time, for look you, Brutus, He draws Mark Antony out of the way.",
+    "lineCount": 2
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 3,
+    "scene": 1,
+    "lines": [
+      "Pardon, Caesar; Caesar, pardon!",
+      "As low as to thy foot doth Cassius fall",
+      "To beg enfranchisement for Publius Cimber."
+    ],
+    "startLine": 1923,
+    "fullText": "Pardon, Caesar; Caesar, pardon! As low as to thy foot doth Cassius fall To beg enfranchisement for Publius Cimber.",
+    "lineCount": 3
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 3,
+    "scene": 1,
+    "lines": [
+      "Some to the common pulpits and cry out",
+      "\"Liberty, freedom, and enfranchisement.\""
+    ],
+    "startLine": 1966,
+    "fullText": "Some to the common pulpits and cry out \"Liberty, freedom, and enfranchisement.\"",
+    "lineCount": 2
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 3,
+    "scene": 1,
+    "lines": [
+      "And leave us, Publius, lest that the people,",
+      "Rushing on us, should do your age some mischief."
+    ],
+    "startLine": 1993,
+    "fullText": "And leave us, Publius, lest that the people, Rushing on us, should do your age some mischief.",
+    "lineCount": 2
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 3,
+    "scene": 1,
+    "lines": [
+      "Where is Antony?"
+    ],
+    "startLine": 2005,
+    "fullText": "Where is Antony?",
+    "lineCount": 1
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 3,
+    "scene": 1,
+    "lines": [
+      "Stoop then, and wash.",
+      "How many ages hence",
+      "Shall this our lofty scene be acted over",
+      "In states unborn and accents yet unknown!"
+    ],
+    "startLine": 2030,
+    "fullText": "Stoop then, and wash. How many ages hence Shall this our lofty scene be acted over In states unborn and accents yet unknown!",
+    "lineCount": 4
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 3,
+    "scene": 1,
+    "lines": [
+      "So oft as that shall be,",
+      "So often shall the knot of us be called",
+      "The men that gave their country liberty."
+    ],
+    "startLine": 2042,
+    "fullText": "So oft as that shall be, So often shall the knot of us be called The men that gave their country liberty.",
+    "lineCount": 3
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 3,
+    "scene": 1,
+    "lines": [
+      "Ay, every man away.",
+      "Brutus shall lead, and we will grace his heels",
+      "With the most boldest and best hearts of Rome."
+    ],
+    "startLine": 2049,
+    "fullText": "Ay, every man away. Brutus shall lead, and we will grace his heels With the most boldest and best hearts of Rome.",
+    "lineCount": 3
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 3,
+    "scene": 1,
+    "lines": [
+      "I wish we may; but yet have I a mind",
+      "That fears him much, and my misgiving still",
+      "Falls shrewdly to the purpose."
+    ],
+    "startLine": 2089,
+    "fullText": "I wish we may; but yet have I a mind That fears him much, and my misgiving still Falls shrewdly to the purpose.",
+    "lineCount": 3
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 3,
+    "scene": 1,
+    "lines": [
+      "Your voice shall be as strong as any man's",
+      "In the disposing of new dignities."
+    ],
+    "startLine": 2133,
+    "fullText": "Your voice shall be as strong as any man's In the disposing of new dignities.",
+    "lineCount": 2
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 3,
+    "scene": 1,
+    "lines": [
+      "Mark Antony--"
+    ],
+    "startLine": 2176,
+    "fullText": "Mark Antony--",
+    "lineCount": 1
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 3,
+    "scene": 1,
+    "lines": [
+      "I blame you not for praising Caesar so.",
+      "But what compact mean you to have with us?",
+      "Will you be pricked in number of our friends,",
+      "Or shall we on and not depend on you?"
+    ],
+    "startLine": 2183,
+    "fullText": "I blame you not for praising Caesar so. But what compact mean you to have with us? Will you be pricked in number of our friends, Or shall we on and not depend on you?",
+    "lineCount": 4
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 3,
+    "scene": 1,
+    "lines": [
+      "Brutus, a word with you.",
+      "not consent",
+      "That Antony speak in his funeral.",
+      "Know you how much the people may be moved",
+      "By that which he will utter?"
+    ],
+    "startLine": 2211,
+    "fullText": "Brutus, a word with you. not consent That Antony speak in his funeral. Know you how much the people may be moved By that which he will utter?",
+    "lineCount": 5
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 3,
+    "scene": 1,
+    "lines": [
+      "I know not what may fall. I like it not."
+    ],
+    "startLine": 2227,
+    "fullText": "I know not what may fall. I like it not.",
+    "lineCount": 1
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 4,
+    "scene": 2,
+    "lines": [
+      "Stand ho!"
+    ],
+    "startLine": 2986,
+    "fullText": "Stand ho!",
+    "lineCount": 1
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 4,
+    "scene": 2,
+    "lines": [
+      "Most noble brother, you have done me wrong."
+    ],
+    "startLine": 2996,
+    "fullText": "Most noble brother, you have done me wrong.",
+    "lineCount": 1
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 4,
+    "scene": 2,
+    "lines": [
+      "Brutus, this sober form of yours hides wrongs,",
+      "And when you do them--"
+    ],
+    "startLine": 3003,
+    "fullText": "Brutus, this sober form of yours hides wrongs, And when you do them--",
+    "lineCount": 2
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 4,
+    "scene": 2,
+    "lines": [
+      "Pindarus,",
+      "Bid our commanders lead their charges off",
+      "A little from this ground."
+    ],
+    "startLine": 3015,
+    "fullText": "Pindarus, Bid our commanders lead their charges off A little from this ground.",
+    "lineCount": 3
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 4,
+    "scene": 3,
+    "lines": [
+      "That you have wronged me doth appear in this:",
+      "You have condemned and noted Lucius Pella",
+      "For taking bribes here of the Sardians,",
+      "Wherein my letters, praying on his side",
+      "Because I knew the man, was slighted off."
+    ],
+    "startLine": 3028,
+    "fullText": "That you have wronged me doth appear in this: You have condemned and noted Lucius Pella For taking bribes here of the Sardians, Wherein my letters, praying on his side Because I knew the man, was slighted off.",
+    "lineCount": 5
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 4,
+    "scene": 3,
+    "lines": [
+      "In such a time as this it is not meet",
+      "That every nice offense should bear his comment."
+    ],
+    "startLine": 3038,
+    "fullText": "In such a time as this it is not meet That every nice offense should bear his comment.",
+    "lineCount": 2
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 4,
+    "scene": 3,
+    "lines": [
+      "I an itching palm?",
+      "You know that you are Brutus that speaks this,",
+      "Or, by the gods, this speech were else your last."
+    ],
+    "startLine": 3048,
+    "fullText": "I an itching palm? You know that you are Brutus that speaks this, Or, by the gods, this speech were else your last.",
+    "lineCount": 3
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 4,
+    "scene": 3,
+    "lines": [
+      "Chastisement?"
+    ],
+    "startLine": 3056,
+    "fullText": "Chastisement?",
+    "lineCount": 1
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 4,
+    "scene": 3,
+    "lines": [
+      "Brutus, bait not me.",
+      "I'll not endure it. You forget yourself",
+      "To hedge me in. I am a soldier, I,",
+      "Older in practice, abler than yourself",
+      "To make conditions."
+    ],
+    "startLine": 3071,
+    "fullText": "Brutus, bait not me. I'll not endure it. You forget yourself To hedge me in. I am a soldier, I, Older in practice, abler than yourself To make conditions.",
+    "lineCount": 5
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 4,
+    "scene": 3,
+    "lines": [
+      "I am."
+    ],
+    "startLine": 3079,
+    "fullText": "I am.",
+    "lineCount": 1
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 4,
+    "scene": 3,
+    "lines": [
+      "Urge me no more. I shall forget myself.",
+      "Have mind upon your health. Tempt me no farther."
+    ],
+    "startLine": 3083,
+    "fullText": "Urge me no more. I shall forget myself. Have mind upon your health. Tempt me no farther.",
+    "lineCount": 2
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 4,
+    "scene": 3,
+    "lines": [
+      "Is 't possible?"
+    ],
+    "startLine": 3089,
+    "fullText": "Is 't possible?",
+    "lineCount": 1
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 4,
+    "scene": 3,
+    "lines": [
+      "O you gods, you gods, must I endure all this?"
+    ],
+    "startLine": 3096,
+    "fullText": "O you gods, you gods, must I endure all this?",
+    "lineCount": 1
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 4,
+    "scene": 3,
+    "lines": [
+      "Is it come to this?"
+    ],
+    "startLine": 3110,
+    "fullText": "Is it come to this?",
+    "lineCount": 1
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 4,
+    "scene": 3,
+    "lines": [
+      "You wrong me every way, you wrong me, Brutus.",
+      "I said an elder soldier, not a better.",
+      "Did I say \"better\"?"
+    ],
+    "startLine": 3118,
+    "fullText": "You wrong me every way, you wrong me, Brutus. I said an elder soldier, not a better. Did I say \"better\"?",
+    "lineCount": 3
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 4,
+    "scene": 3,
+    "lines": [
+      "When Caesar lived he durst not thus have moved",
+      "me."
+    ],
+    "startLine": 3125,
+    "fullText": "When Caesar lived he durst not thus have moved me.",
+    "lineCount": 2
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 4,
+    "scene": 3,
+    "lines": [
+      "I durst not?"
+    ],
+    "startLine": 3132,
+    "fullText": "I durst not?",
+    "lineCount": 1
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 4,
+    "scene": 3,
+    "lines": [
+      "What? Durst not tempt him?"
+    ],
+    "startLine": 3136,
+    "fullText": "What? Durst not tempt him?",
+    "lineCount": 1
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 4,
+    "scene": 3,
+    "lines": [
+      "Do not presume too much upon my love.",
+      "I may do that I shall be sorry for."
+    ],
+    "startLine": 3142,
+    "fullText": "Do not presume too much upon my love. I may do that I shall be sorry for.",
+    "lineCount": 2
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 4,
+    "scene": 3,
+    "lines": [
+      "I denied you not."
+    ],
+    "startLine": 3166,
+    "fullText": "I denied you not.",
+    "lineCount": 1
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 4,
+    "scene": 3,
+    "lines": [
+      "I did not. He was but a fool that brought",
+      "My answer back. Brutus hath rived my heart.",
+      "A friend should bear his friend's infirmities,",
+      "But Brutus makes mine greater than they are."
+    ],
+    "startLine": 3170,
+    "fullText": "I did not. He was but a fool that brought My answer back. Brutus hath rived my heart. A friend should bear his friend's infirmities, But Brutus makes mine greater than they are.",
+    "lineCount": 4
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 4,
+    "scene": 3,
+    "lines": [
+      "You love me not."
+    ],
+    "startLine": 3179,
+    "fullText": "You love me not.",
+    "lineCount": 1
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 4,
+    "scene": 3,
+    "lines": [
+      "A friendly eye could never see such faults."
+    ],
+    "startLine": 3184,
+    "fullText": "A friendly eye could never see such faults.",
+    "lineCount": 1
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 4,
+    "scene": 3,
+    "lines": [
+      "Come, Antony, and young Octavius, come!",
+      "Revenge yourselves alone on Cassius,",
+      "For Cassius is aweary of the world--",
+      "Hated by one he loves, braved by his brother,",
+      "Checked like a bondman, all his faults observed,",
+      "Set in a notebook, learned and conned by rote",
+      "To cast into my teeth. O, I could weep",
+      "My spirit from mine eyes! There is my dagger,",
+      "And here my naked breast; within, a heart",
+      "Dearer than Pluto's mine, richer than gold.",
+      "If that thou be'st a Roman, take it forth.",
+      "I that denied thee gold will give my heart.",
+      "Strike as thou didst at Caesar, for I know",
+      "When thou didst hate him worst, thou lovedst him",
+      "better",
+      "Than ever thou lovedst Cassius."
+    ],
+    "startLine": 3191,
+    "fullText": "Come, Antony, and young Octavius, come! Revenge yourselves alone on Cassius, For Cassius is aweary of the world-- Hated by one he loves, braved by his brother, Checked like a bondman, all his faults observed, Set in a notebook, learned and conned by rote To cast into my teeth. O, I could weep My spirit from mine eyes! There is my dagger, And here my naked breast; within, a heart Dearer than Pluto's mine, richer than gold. If that thou be'st a Roman, take it forth. I that denied thee gold will give my heart. Strike as thou didst at Caesar, for I know When thou didst hate him worst, thou lovedst him better Than ever thou lovedst Cassius.",
+    "lineCount": 16
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 4,
+    "scene": 3,
+    "lines": [
+      "Hath Cassius lived",
+      "To be but mirth and laughter to his Brutus",
+      "When grief and blood ill-tempered vexeth him?"
+    ],
+    "startLine": 3219,
+    "fullText": "Hath Cassius lived To be but mirth and laughter to his Brutus When grief and blood ill-tempered vexeth him?",
+    "lineCount": 3
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 4,
+    "scene": 3,
+    "lines": [
+      "Do you confess so much? Give me your hand."
+    ],
+    "startLine": 3226,
+    "fullText": "Do you confess so much? Give me your hand.",
+    "lineCount": 1
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 4,
+    "scene": 3,
+    "lines": [
+      "O Brutus!"
+    ],
+    "startLine": 3232,
+    "fullText": "O Brutus!",
+    "lineCount": 1
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 4,
+    "scene": 3,
+    "lines": [
+      "Have not you love enough to bear with me",
+      "When that rash humor which my mother gave me",
+      "Makes me forgetful?"
+    ],
+    "startLine": 3236,
+    "fullText": "Have not you love enough to bear with me When that rash humor which my mother gave me Makes me forgetful?",
+    "lineCount": 3
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 4,
+    "scene": 3,
+    "lines": [
+      "How now, what's the matter?"
+    ],
+    "startLine": 3258,
+    "fullText": "How now, what's the matter?",
+    "lineCount": 1
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 4,
+    "scene": 3,
+    "lines": [
+      "Ha, ha, how vilely doth this cynic rhyme!"
+    ],
+    "startLine": 3265,
+    "fullText": "Ha, ha, how vilely doth this cynic rhyme!",
+    "lineCount": 1
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 4,
+    "scene": 3,
+    "lines": [
+      "Bear with him, Brutus. 'Tis his fashion."
+    ],
+    "startLine": 3271,
+    "fullText": "Bear with him, Brutus. 'Tis his fashion.",
+    "lineCount": 1
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 4,
+    "scene": 3,
+    "lines": [
+      "Away, away, be gone!"
+    ],
+    "startLine": 3279,
+    "fullText": "Away, away, be gone!",
+    "lineCount": 1
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 4,
+    "scene": 3,
+    "lines": [
+      "And come yourselves, and bring Messala with you",
+      "Immediately to us."
+    ],
+    "startLine": 3285,
+    "fullText": "And come yourselves, and bring Messala with you Immediately to us.",
+    "lineCount": 2
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 4,
+    "scene": 3,
+    "lines": [
+      "I did not think you could have been so angry."
+    ],
+    "startLine": 3291,
+    "fullText": "I did not think you could have been so angry.",
+    "lineCount": 1
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 4,
+    "scene": 3,
+    "lines": [
+      "Of your philosophy you make no use",
+      "If you give place to accidental evils."
+    ],
+    "startLine": 3297,
+    "fullText": "Of your philosophy you make no use If you give place to accidental evils.",
+    "lineCount": 2
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 4,
+    "scene": 3,
+    "lines": [
+      "Ha? Portia?"
+    ],
+    "startLine": 3304,
+    "fullText": "Ha? Portia?",
+    "lineCount": 1
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 4,
+    "scene": 3,
+    "lines": [
+      "How 'scaped I killing when I crossed you so?",
+      "O insupportable and touching loss!",
+      "Upon what sickness?"
+    ],
+    "startLine": 3308,
+    "fullText": "How 'scaped I killing when I crossed you so? O insupportable and touching loss! Upon what sickness?",
+    "lineCount": 3
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 4,
+    "scene": 3,
+    "lines": [
+      "And died so?"
+    ],
+    "startLine": 3320,
+    "fullText": "And died so?",
+    "lineCount": 1
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 4,
+    "scene": 3,
+    "lines": [
+      "O you immortal gods!"
+    ],
+    "startLine": 3324,
+    "fullText": "O you immortal gods!",
+    "lineCount": 1
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 4,
+    "scene": 3,
+    "lines": [
+      "My heart is thirsty for that noble pledge.--",
+      "Fill, Lucius, till the wine o'erswell the cup;",
+      "I cannot drink too much of Brutus' love."
+    ],
+    "startLine": 3333,
+    "fullText": "My heart is thirsty for that noble pledge.-- Fill, Lucius, till the wine o'erswell the cup; I cannot drink too much of Brutus' love.",
+    "lineCount": 3
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 4,
+    "scene": 3,
+    "lines": [
+      "Portia, art thou gone?"
+    ],
+    "startLine": 3347,
+    "fullText": "Portia, art thou gone?",
+    "lineCount": 1
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 4,
+    "scene": 3,
+    "lines": [
+      "Cicero one?"
+    ],
+    "startLine": 3371,
+    "fullText": "Cicero one?",
+    "lineCount": 1
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 4,
+    "scene": 3,
+    "lines": [
+      "I have as much of this in art as you,",
+      "But yet my nature could not bear it so."
+    ],
+    "startLine": 3407,
+    "fullText": "I have as much of this in art as you, But yet my nature could not bear it so.",
+    "lineCount": 2
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 4,
+    "scene": 3,
+    "lines": [
+      "I do not think it good."
+    ],
+    "startLine": 3415,
+    "fullText": "I do not think it good.",
+    "lineCount": 1
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 4,
+    "scene": 3,
+    "lines": [
+      "This it is:",
+      "'Tis better that the enemy seek us;",
+      "So shall he waste his means, weary his soldiers,",
+      "Doing himself offense, whilst we, lying still,",
+      "Are full of rest, defense, and nimbleness."
+    ],
+    "startLine": 3419,
+    "fullText": "This it is: 'Tis better that the enemy seek us; So shall he waste his means, weary his soldiers, Doing himself offense, whilst we, lying still, Are full of rest, defense, and nimbleness.",
+    "lineCount": 5
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 4,
+    "scene": 3,
+    "lines": [
+      "Hear me, good brother--"
+    ],
+    "startLine": 3437,
+    "fullText": "Hear me, good brother--",
+    "lineCount": 1
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 4,
+    "scene": 3,
+    "lines": [
+      "Then, with your will, go on;",
+      "We'll along ourselves and meet them at Philippi."
+    ],
+    "startLine": 3453,
+    "fullText": "Then, with your will, go on; We'll along ourselves and meet them at Philippi.",
+    "lineCount": 2
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 4,
+    "scene": 3,
+    "lines": [
+      "No more. Good night.",
+      "Early tomorrow will we rise and hence."
+    ],
+    "startLine": 3462,
+    "fullText": "No more. Good night. Early tomorrow will we rise and hence.",
+    "lineCount": 2
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 4,
+    "scene": 3,
+    "lines": [
+      "O my dear brother,",
+      "This was an ill beginning of the night.",
+      "Never come such division 'tween our souls!",
+      "Let it not, Brutus."
+    ],
+    "startLine": 3476,
+    "fullText": "O my dear brother, This was an ill beginning of the night. Never come such division 'tween our souls! Let it not, Brutus.",
+    "lineCount": 4
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 4,
+    "scene": 3,
+    "lines": [
+      "Good night, my lord."
+    ],
+    "startLine": 3486,
+    "fullText": "Good night, my lord.",
+    "lineCount": 1
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 5,
+    "scene": 1,
+    "lines": [
+      "Stand fast, Titinius. We must out and talk."
+    ],
+    "startLine": 3694,
+    "fullText": "Stand fast, Titinius. We must out and talk.",
+    "lineCount": 1
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 5,
+    "scene": 1,
+    "lines": [
+      "Antony,",
+      "The posture of your blows are yet unknown,",
+      "But, for your words, they rob the Hybla bees",
+      "And leave them honeyless."
+    ],
+    "startLine": 3721,
+    "fullText": "Antony, The posture of your blows are yet unknown, But, for your words, they rob the Hybla bees And leave them honeyless.",
+    "lineCount": 4
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 5,
+    "scene": 1,
+    "lines": [
+      "Flatterers?--Now, Brutus, thank yourself!",
+      "This tongue had not offended so today",
+      "If Cassius might have ruled."
+    ],
+    "startLine": 3741,
+    "fullText": "Flatterers?--Now, Brutus, thank yourself! This tongue had not offended so today If Cassius might have ruled.",
+    "lineCount": 3
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 5,
+    "scene": 1,
+    "lines": [
+      "A peevish schoolboy, worthless of such honor,",
+      "Joined with a masker and a reveler!"
+    ],
+    "startLine": 3767,
+    "fullText": "A peevish schoolboy, worthless of such honor, Joined with a masker and a reveler!",
+    "lineCount": 2
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 5,
+    "scene": 1,
+    "lines": [
+      "Why now, blow wind, swell billow, and swim bark!",
+      "The storm is up, and all is on the hazard."
+    ],
+    "startLine": 3780,
+    "fullText": "Why now, blow wind, swell billow, and swim bark! The storm is up, and all is on the hazard.",
+    "lineCount": 2
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 5,
+    "scene": 1,
+    "lines": [
+      "Messala."
+    ],
+    "startLine": 3791,
+    "fullText": "Messala.",
+    "lineCount": 1
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 5,
+    "scene": 1,
+    "lines": [
+      "Messala,",
+      "This is my birthday, as this very day",
+      "Was Cassius born. Give me thy hand, Messala.",
+      "Be thou my witness that against my will",
+      "(As Pompey was) am I compelled to set",
+      "Upon one battle all our liberties.",
+      "You know that I held Epicurus strong",
+      "And his opinion. Now I change my mind",
+      "And partly credit things that do presage.",
+      "Coming from Sardis, on our former ensign",
+      "Two mighty eagles fell, and there they perched,",
+      "Gorging and feeding from our soldiers' hands,",
+      "Who to Philippi here consorted us.",
+      "This morning are they fled away and gone,",
+      "And in their steads do ravens, crows, and kites",
+      "Fly o'er our heads and downward look on us",
+      "As we were sickly prey. Their shadows seem",
+      "A canopy most fatal, under which",
+      "Our army lies, ready to give up the ghost."
+    ],
+    "startLine": 3796,
+    "fullText": "Messala, This is my birthday, as this very day Was Cassius born. Give me thy hand, Messala. Be thou my witness that against my will (As Pompey was) am I compelled to set Upon one battle all our liberties. You know that I held Epicurus strong And his opinion. Now I change my mind And partly credit things that do presage. Coming from Sardis, on our former ensign Two mighty eagles fell, and there they perched, Gorging and feeding from our soldiers' hands, Who to Philippi here consorted us. This morning are they fled away and gone, And in their steads do ravens, crows, and kites Fly o'er our heads and downward look on us As we were sickly prey. Their shadows seem A canopy most fatal, under which Our army lies, ready to give up the ghost.",
+    "lineCount": 19
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 5,
+    "scene": 1,
+    "lines": [
+      "I but believe it partly,",
+      "For I am fresh of spirit and resolved",
+      "To meet all perils very constantly."
+    ],
+    "startLine": 3819,
+    "fullText": "I but believe it partly, For I am fresh of spirit and resolved To meet all perils very constantly.",
+    "lineCount": 3
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 5,
+    "scene": 1,
+    "lines": [
+      "Now, most noble Brutus,",
+      "The gods today stand friendly that we may,",
+      "Lovers in peace, lead on our days to age.",
+      "But since the affairs of men rests still incertain,",
+      "Let's reason with the worst that may befall.",
+      "If we do lose this battle, then is this",
+      "The very last time we shall speak together.",
+      "What are you then determined to do?"
+    ],
+    "startLine": 3826,
+    "fullText": "Now, most noble Brutus, The gods today stand friendly that we may, Lovers in peace, lead on our days to age. But since the affairs of men rests still incertain, Let's reason with the worst that may befall. If we do lose this battle, then is this The very last time we shall speak together. What are you then determined to do?",
+    "lineCount": 8
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 5,
+    "scene": 1,
+    "lines": [
+      "Then, if we lose this battle,",
+      "You are contented to be led in triumph",
+      "Thorough the streets of Rome?"
+    ],
+    "startLine": 3845,
+    "fullText": "Then, if we lose this battle, You are contented to be led in triumph Thorough the streets of Rome?",
+    "lineCount": 3
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 5,
+    "scene": 1,
+    "lines": [
+      "Forever and forever farewell, Brutus.",
+      "If we do meet again, we'll smile indeed;",
+      "If not, 'tis true this parting was well made."
+    ],
+    "startLine": 3860,
+    "fullText": "Forever and forever farewell, Brutus. If we do meet again, we'll smile indeed; If not, 'tis true this parting was well made.",
+    "lineCount": 3
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 5,
+    "scene": 3,
+    "lines": [
+      "O, look, Titinius, look, the villains fly!",
+      "Myself have to mine own turned enemy.",
+      "This ensign here of mine was turning back;",
+      "I slew the coward and did take it from him."
+    ],
+    "startLine": 3894,
+    "fullText": "O, look, Titinius, look, the villains fly! Myself have to mine own turned enemy. This ensign here of mine was turning back; I slew the coward and did take it from him.",
+    "lineCount": 4
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 5,
+    "scene": 3,
+    "lines": [
+      "This hill is far enough.--Look, look, Titinius,",
+      "Are those my tents where I perceive the fire?"
+    ],
+    "startLine": 3914,
+    "fullText": "This hill is far enough.--Look, look, Titinius, Are those my tents where I perceive the fire?",
+    "lineCount": 2
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 5,
+    "scene": 3,
+    "lines": [
+      "Titinius, if thou lovest me,",
+      "Mount thou my horse and hide thy spurs in him",
+      "Till he have brought thee up to yonder troops",
+      "And here again, that I may rest assured",
+      "Whether yond troops are friend or enemy."
+    ],
+    "startLine": 3921,
+    "fullText": "Titinius, if thou lovest me, Mount thou my horse and hide thy spurs in him Till he have brought thee up to yonder troops And here again, that I may rest assured Whether yond troops are friend or enemy.",
+    "lineCount": 5
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 5,
+    "scene": 3,
+    "lines": [
+      "Go, Pindarus, get higher on that hill.",
+      "My sight was ever thick. Regard Titinius",
+      "And tell me what thou not'st about the field.",
+      "This day I breathed first. Time is come round,",
+      "And where I did begin, there shall I end;",
+      "My life is run his compass.--Sirrah, what news?"
+    ],
+    "startLine": 3930,
+    "fullText": "Go, Pindarus, get higher on that hill. My sight was ever thick. Regard Titinius And tell me what thou not'st about the field. This day I breathed first. Time is come round, And where I did begin, there shall I end; My life is run his compass.--Sirrah, what news?",
+    "lineCount": 6
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 5,
+    "scene": 3,
+    "lines": [
+      "What news?"
+    ],
+    "startLine": 3941,
+    "fullText": "What news?",
+    "lineCount": 1
+  },
+  {
+    "villain": "Cassius",
+    "play": "Julius Caesar",
+    "act": 5,
+    "scene": 3,
+    "lines": [
+      "Come down, behold no more.--",
+      "O, coward that I am to live so long",
+      "To see my best friend ta'en before my face!",
+      "Come hither, sirrah.",
+      "In Parthia did I take thee prisoner,",
+      "And then I swore thee, saving of thy life,",
+      "That whatsoever I did bid thee do",
+      "Thou shouldst attempt it. Come now, keep thine",
+      "oath.",
+      "Now be a freeman, and with this good sword,",
+      "That ran through Caesar's bowels, search this",
+      "bosom.",
+      "Stand not to answer. Here, take thou the hilts,",
+      "And, when my face is covered, as 'tis now,",
+      "Guide thou the sword.",
+      "Caesar, thou art revenged",
+      "Even with the sword that killed thee."
+    ],
+    "startLine": 3951,
+    "fullText": "Come down, behold no more.-- O, coward that I am to live so long To see my best friend ta'en before my face! Come hither, sirrah. In Parthia did I take thee prisoner, And then I swore thee, saving of thy life, That whatsoever I did bid thee do Thou shouldst attempt it. Come now, keep thine oath. Now be a freeman, and with this good sword, That ran through Caesar's bowels, search this bosom. Stand not to answer. Here, take thou the hilts, And, when my face is covered, as 'tis now, Guide thou the sword. Caesar, thou art revenged Even with the sword that killed thee.",
+    "lineCount": 17
+  }
+]

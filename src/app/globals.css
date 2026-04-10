@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-punk: "Permanent Marker", cursive;
+  --font-mono: "Space Mono", ui-monospace, monospace;
+  --color-neon-pink: #ff2d95;
+  --color-neon-yellow: #e6ff00;
+  --color-neon-green: #39ff14;
+}
+
+@layer base {
+  body {
+    background: #0a0a0a;
+    color: #fafafa;
+    font-family: var(--font-mono);
+  }
+}
+
+/* Noise/grain texture overlay */
+.grain::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.06;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+  background-size: 256px 256px;
+  z-index: 9999;
+}
+
+/* Punk title styling */
+.punk-title {
+  font-family: var(--font-punk);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  -webkit-text-stroke: 1px rgba(255, 45, 149, 0.3);
+}
+
+/* Splatter button */
+.punk-btn {
+  position: relative;
+  font-family: var(--font-punk);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  transition: all 0.2s;
+}
+.punk-btn:hover {
+  transform: scale(1.05) rotate(-1deg);
+  box-shadow: 0 0 30px rgba(255, 45, 149, 0.4), 0 0 60px rgba(230, 255, 0, 0.2);
+}
+
+/* Diagonal stripe accent */
+.stripe-bg {
+  background: repeating-linear-gradient(
+    -45deg,
+    transparent,
+    transparent 4px,
+    rgba(255, 45, 149, 0.08) 4px,
+    rgba(255, 45, 149, 0.08) 5px
+  );
+}
+
+/* Gallery card hover */
+.gallery-card {
+  transition: all 0.2s;
+}
+.gallery-card:hover {
+  transform: rotate(-1deg) scale(1.03);
+  box-shadow: 4px 4px 0 var(--color-neon-pink), -2px -2px 0 var(--color-neon-yellow);
+}
