@@ -10,16 +10,22 @@ export const maxDuration = 60;
 
 const EXTRACTED_DIR = path.join(process.cwd(), "data", "extracted");
 
-const VILLAINS = [
-  "iago", "lady-macbeth", "macbeth", "richard-iii", "claudius", "edmund",
-  "shylock", "aaron", "caliban", "cassius", "tamora", "goneril", "regan",
-  "angelo", "iachimo", "leontes", "proteus", "don-john", "cloten",
-  "hotspur", "cardinal-wolsey", "aufidius", "queen-margaret", "thersites",
-  "timon", "falstaff", "petruchio", "malvolio", "bolingbroke", "oberon",
-  "suffolk", "joan-la-pucelle", "tybalt", "dionyza", "duke-frederick",
-  "bertram", "antiochus", "the-queen",
-  "cleopatra", "volumnia", "cressida",
+const FEMALE_VILLAINS = [
+  "lady-macbeth", "tamora", "goneril", "regan", "queen-margaret",
+  "joan-la-pucelle", "dionyza", "the-queen", "cleopatra", "volumnia", "cressida",
 ];
+
+const MALE_VILLAINS = [
+  "iago", "macbeth", "richard-iii", "claudius", "edmund",
+  "shylock", "aaron", "caliban", "cassius",
+  "angelo", "iachimo", "leontes", "proteus", "don-john", "cloten",
+  "hotspur", "cardinal-wolsey", "aufidius", "thersites",
+  "timon", "falstaff", "petruchio", "malvolio", "bolingbroke", "oberon",
+  "suffolk", "tybalt", "duke-frederick",
+  "bertram", "antiochus",
+];
+
+const VILLAINS = [...FEMALE_VILLAINS, ...MALE_VILLAINS];
 
 const VILLAIN_DISPLAY: Record<string, string> = {
   "iago": "Iago (Othello) — master deceiver, manipulator, false friend",
@@ -179,10 +185,14 @@ export async function POST(request: Request) {
     const anthropic = new Anthropic({ apiKey: anthropicKey });
 
     // 1. Ask Claude to pick the villain who is the best literary foil to this virtue
-    // Randomly select a subset of villains to force variety across generations
-    const allVillainEntries = Object.entries(VILLAIN_DISPLAY);
-    const shuffledVillains = allVillainEntries.sort(() => Math.random() - 0.5);
-    const candidatePool = shuffledVillains.slice(0, 12);
+    // Build a balanced candidate pool: at least 5 female villains out of 12
+    const shuffledFemale = FEMALE_VILLAINS.sort(() => Math.random() - 0.5);
+    const shuffledMale = MALE_VILLAINS.sort(() => Math.random() - 0.5);
+    const femalePool = shuffledFemale.slice(0, 5);
+    const malePool = shuffledMale.slice(0, 7);
+    const candidatePool = [...femalePool, ...malePool]
+      .sort(() => Math.random() - 0.5)
+      .map((slug) => [slug, VILLAIN_DISPLAY[slug]] as const);
     const villainList = candidatePool
       .map(([slug, desc]) => `- ${slug}: ${desc}`)
       .join("\n");
@@ -194,6 +204,8 @@ export async function POST(request: Request) {
         {
           role: "user",
           content: `A person named "${name.trim()}" says their greatest virtue is "${virtue.trim()}". Pick the Shakespeare villain from this list who is the BEST literary foil — the character whose defining traits most directly oppose or corrupt this virtue.
+
+IMPORTANT: Do NOT default to Iago or the most famous villains. Shakespeare's lesser-known characters — especially the women (Lady Macbeth, Tamora, Goneril, Regan, Queen Margaret, Cleopatra, Volumnia, Cressida, etc.) — are often MORE interesting and specific foils. Prefer a surprising, thematically precise match over an obvious one.
 
 Also create a Shakespearean-style epithet for this person based on their virtue — the kind of title a herald might announce. It should be "${name.trim()} the ___" where the blank is a single evocative Shakespearean word or short phrase that captures their virtue. Examples: "the Brave" for bravery, "the Gentle-hearted" for kindness, "the Ever-true" for loyalty, "the Unbowed" for resilience.
 
