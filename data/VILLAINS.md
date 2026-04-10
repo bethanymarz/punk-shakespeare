@@ -1,6 +1,6 @@
 # Punk Shakespeare — Full Villain & Antagonist List
 
-38 characters across 26 Shakespeare plays. Each character represents the opposite of a human virtue, serving as a literary foil in the app.
+41 characters across 28 Shakespeare plays. Each character represents the opposite of a human virtue, serving as a literary foil in the app.
 
 ## Characters
 
@@ -44,6 +44,9 @@
 | 36 | Bertram | All's Well That Ends Well | BERTRAM | Constancy, Honor |
 | 37 | Antiochus | Pericles | ANTIOCHUS | Purity, Paternal love |
 | 38 | The Queen | Cymbeline | QUEEN | Nurture, Motherhood |
+| 39 | Cleopatra | Antony and Cleopatra | CLEOPATRA | Temperance, Self-control |
+| 40 | Volumnia | Coriolanus | VOLUMNIA | Gentleness, Nurture |
+| 41 | Cressida | Troilus and Cressida | CRESSIDA | Fidelity, Constancy |
 
 ## Notes
 

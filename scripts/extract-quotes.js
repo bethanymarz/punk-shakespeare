@@ -50,6 +50,10 @@ const VILLAINS = [
   { villain: "Bertram", play: "All's Well That Ends Well", file: "alls-well-that-ends-well_TXT_FolgerShakespeare.txt", token: "BERTRAM" },
   { villain: "Antiochus", play: "Pericles", file: "pericles_TXT_FolgerShakespeare.txt", token: "ANTIOCHUS" },
   { villain: "The Queen", play: "Cymbeline", file: "cymbeline_TXT_FolgerShakespeare.txt", token: "QUEEN", exclude: ["QUEEN MARGARET"] },
+  // --- Additional female characters ---
+  { villain: "Cleopatra", play: "Antony and Cleopatra", file: "antony-and-cleopatra_TXT_FolgerShakespeare.txt", token: "CLEOPATRA" },
+  { villain: "Volumnia", play: "Coriolanus", file: "coriolanus_TXT_FolgerShakespeare.txt", token: "VOLUMNIA" },
+  { villain: "Cressida", play: "Troilus and Cressida", file: "troilus-and-cressida_TXT_FolgerShakespeare.txt", token: "CRESSIDA" },
 ];
 
 function stripStageDirections(text) {

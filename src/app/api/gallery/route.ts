@@ -29,6 +29,7 @@ export async function GET() {
     userVirtue: row.user_virtue,
     userTitle: row.user_title,
     foilExplanation: row.foil_explanation,
+    sourceUrl: row.source_url,
   }));
 
   return NextResponse.json(quotes);

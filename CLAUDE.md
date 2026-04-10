@@ -4,22 +4,25 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What This Is
 
-**Villain of the Day** — a Next.js web app that displays a daily Shakespeare villain quote paired with AI-generated punk-style art. Built on top of a plain-text corpus of Shakespeare's complete works from the Folger Shakespeare Library.
+**Punk Shakespeare** — a Next.js web app where users enter their name and a virtue, then get matched with their literary foil: a Shakespeare villain whose traits oppose that virtue. Each result includes a curated quote, AI-generated punk-style portrait, and a link to the full scene at the Folger Shakespeare Library. Built on a plain-text corpus of Shakespeare's complete works.
 
 ## Project Structure
 
 - `texts/` — 42 Shakespeare text files (plays, sonnets, poems) from the Folger Shakespeare Library
 - `scripts/` — Offline data pipeline scripts (Node.js)
-  - `extract-quotes.js` — Parses text files, extracts dialogue for 13 villains into JSON
+  - `extract-quotes.js` — Parses text files, extracts dialogue for 41 villains into JSON
   - `curate-quotes.js` — Uses Claude API to select 365 best quotes (requires `ANTHROPIC_API_KEY`)
   - `generate-art.js` — Uses Nano Banana 2 / Gemini API for punk art (requires `GOOGLE_AI_API_KEY`)
 - `data/extracted/` — Per-villain speech JSON files (output of extract-quotes.js)
 - `data/curated/quotes-365.json` — Final 365 curated quotes (output of curate-quotes.js)
 - `public/art/` — Generated WebP images (output of generate-art.js)
 - `src/` — Next.js app (TypeScript + Tailwind CSS v4)
-  - `src/app/page.tsx` — Main daily villain page (client component, date-based quote selection)
+  - `src/app/page.tsx` — Main page: name/virtue form, villain display, persistent gallery
+  - `src/app/api/generate/route.ts` — Generation API: foil selection (Claude) + art (Gemini) + Supabase storage
+  - `src/app/api/gallery/route.ts` — Gallery API: loads past generations from Supabase
   - `src/app/archive/page.tsx` — Grid view of all quotes
-  - `src/components/` — VillainCard, ShareButton, Navigation
+  - `src/components/` — ShareButton
+  - `src/lib/supabase.ts` — Supabase client
   - `src/lib/get-daily-quote.ts` — Date-based index logic with fallback sample data
   - `src/types/index.ts` — CuratedQuote interface
 
@@ -62,11 +65,20 @@ Punk villain Shakespeare aesthetic:
 
 ## Key Dependencies
 
-- `next` — App framework (App Router, static generation)
-- `@anthropic-ai/sdk` — Claude API for quote curation
-- `@google/generative-ai` — Gemini/Nano Banana 2 for art generation
+- `next` — App framework (App Router)
+- `@anthropic-ai/sdk` — Claude API for foil selection and quote curation
+- `@google/generative-ai` — Gemini for punk art generation
+- `@supabase/supabase-js` — Database and image storage
 - `sharp` — Image conversion to WebP
 
-## Villains Extracted (13 total)
+## Supabase
 
-Iago, Lady Macbeth, Macbeth, Richard III, Claudius, Edmund, Shylock, Aaron, Caliban, Cassius, Tamora, Goneril, Regan
+- **Table:** `generations` — stores each villain generation (quote, art URL, user info, foil explanation)
+- **Storage bucket:** `art` — stores generated WebP images
+- Env vars: `NEXT_PUBLIC_SUPABASE_URL`, `NEXT_PUBLIC_SUPABASE_ANON_KEY`
+
+## Villains Extracted (41 total)
+
+See `data/VILLAINS.md` for the full list with speaker tokens and virtues each character opposes.
+
+11 female characters: Lady Macbeth, Tamora, Goneril, Regan, Queen Margaret, Joan La Pucelle, Dionyza, The Queen (Cymbeline), Cleopatra, Volumnia, Cressida

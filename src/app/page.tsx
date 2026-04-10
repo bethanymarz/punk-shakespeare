@@ -215,11 +215,22 @@ export default function Home() {
               </blockquote>
 
               {/* Attribution */}
-              <div className="font-mono text-sm text-zinc-500 mb-5">
+              <div className="font-mono text-sm text-zinc-500 mb-2">
                 <em className="not-italic text-zinc-400">{quote.play}</em>
                 <span className="mx-2 text-[var(--color-neon-pink)]">//</span>
                 Act {quote.act}, Scene {quote.scene}
               </div>
+              {quote.sourceUrl && (
+                <a
+                  href={quote.sourceUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-mono text-xs text-[var(--color-neon-pink)]/70 hover:text-[var(--color-neon-pink)] underline mb-5 inline-block transition-colors"
+                >
+                  Read the full scene at the Folger Shakespeare Library &rarr;
+                </a>
+              )}
+              {!quote.sourceUrl && <div className="mb-3" />}
 
               {/* Themes */}
               <div className="flex flex-wrap gap-2 mb-6">
@@ -308,6 +319,8 @@ export default function Home() {
         </p>
         <p className="font-mono text-xs text-zinc-400 mt-2">
           Built by <a href="https://www.linkedin.com/in/bethanymarz/" target="_blank" rel="noopener noreferrer" className="underline hover:text-[var(--color-neon-pink)] transition-colors">Bethany Crystal</a>
+          <span className="mx-2 text-zinc-600">|</span>
+          <a href="https://github.com/bethanymarz/punk-shakespeare" target="_blank" rel="noopener noreferrer" className="underline hover:text-[var(--color-neon-pink)] transition-colors">GitHub</a>
         </p>
       </footer>
     </main>

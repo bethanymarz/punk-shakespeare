@@ -15,4 +15,5 @@ export interface CuratedQuote {
   userVirtue?: string;
   foilExplanation?: string;
   userTitle?: string;
+  sourceUrl?: string;
 }

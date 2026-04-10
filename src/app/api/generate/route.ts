@@ -18,6 +18,7 @@ const VILLAINS = [
   "timon", "falstaff", "petruchio", "malvolio", "bolingbroke", "oberon",
   "suffolk", "joan-la-pucelle", "tybalt", "dionyza", "duke-frederick",
   "bertram", "antiochus", "the-queen",
+  "cleopatra", "volumnia", "cressida",
 ];
 
 const VILLAIN_DISPLAY: Record<string, string> = {
@@ -59,6 +60,53 @@ const VILLAIN_DISPLAY: Record<string, string> = {
   "bertram": "Bertram (All's Well That Ends Well) — inconstancy, broken promises, dishonorable flight",
   "antiochus": "Antiochus (Pericles) — incest, tyranny, the darkest corruption of paternal love",
   "the-queen": "The Queen (Cymbeline) — poisoning, wicked stepmother, false nurture",
+  "cleopatra": "Cleopatra (Antony and Cleopatra) — seduction, manipulation, intoxicating self-destruction",
+  "volumnia": "Volumnia (Coriolanus) — domineering motherhood, weaponized guilt, glory over humanity",
+  "cressida": "Cressida (Troilus and Cressida) — infidelity, broken vows, betrayal of love",
+};
+
+const VILLAIN_FOLGER_SLUG: Record<string, string> = {
+  "iago": "othello",
+  "lady-macbeth": "macbeth",
+  "macbeth": "macbeth",
+  "richard-iii": "richard-iii",
+  "claudius": "hamlet",
+  "edmund": "king-lear",
+  "shylock": "the-merchant-of-venice",
+  "aaron": "titus-andronicus",
+  "caliban": "the-tempest",
+  "cassius": "julius-caesar",
+  "tamora": "titus-andronicus",
+  "goneril": "king-lear",
+  "regan": "king-lear",
+  "angelo": "measure-for-measure",
+  "iachimo": "cymbeline",
+  "leontes": "the-winters-tale",
+  "proteus": "the-two-gentlemen-of-verona",
+  "don-john": "much-ado-about-nothing",
+  "cloten": "cymbeline",
+  "hotspur": "henry-iv-part-1",
+  "cardinal-wolsey": "henry-viii",
+  "aufidius": "coriolanus",
+  "queen-margaret": "henry-vi-part-2",
+  "thersites": "troilus-and-cressida",
+  "timon": "timon-of-athens",
+  "falstaff": "henry-iv-part-1",
+  "petruchio": "the-taming-of-the-shrew",
+  "malvolio": "twelfth-night",
+  "bolingbroke": "richard-ii",
+  "oberon": "a-midsummer-nights-dream",
+  "suffolk": "henry-vi-part-2",
+  "joan-la-pucelle": "henry-vi-part-1",
+  "tybalt": "romeo-and-juliet",
+  "dionyza": "pericles",
+  "duke-frederick": "as-you-like-it",
+  "bertram": "alls-well-that-ends-well",
+  "antiochus": "pericles",
+  "the-queen": "cymbeline",
+  "cleopatra": "antony-and-cleopatra",
+  "volumnia": "coriolanus",
+  "cressida": "troilus-and-cressida",
 };
 
 const ART_STYLE =
@@ -199,6 +247,12 @@ ${JSON.stringify(sample.map((s: { act: number; scene: number; fullText: string }
       }
     }
 
+    // Build Folger Shakespeare Library source URL
+    const folgerSlug = VILLAIN_FOLGER_SLUG[villainFile];
+    const sourceUrl = folgerSlug
+      ? `https://www.folger.edu/explore/shakespeares-works/${folgerSlug}/read/${quote.act}/${quote.scene}/`
+      : null;
+
     // Save to database
     const record = {
       user_name: name.trim(),
@@ -214,6 +268,7 @@ ${JSON.stringify(sample.map((s: { act: number; scene: number; fullText: string }
       foil_explanation: foilResult.foilExplanation,
       user_title: foilResult.userTitle || `${name.trim()} the ${virtue.trim()}`,
       image_path: imagePath,
+      source_url: sourceUrl,
     };
 
     const { data: inserted, error: dbError } = await supabase
@@ -235,6 +290,7 @@ ${JSON.stringify(sample.map((s: { act: number; scene: number; fullText: string }
       userVirtue: virtue.trim(),
       userTitle: foilResult.userTitle || `${name.trim()} the ${virtue.trim()}`,
       foilExplanation: foilResult.foilExplanation,
+      sourceUrl,
     });
   } catch (err) {
     const message = err instanceof Error ? err.message : "Unknown error";
